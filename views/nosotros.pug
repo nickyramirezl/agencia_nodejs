@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido 
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Sobre nosotros", class="img-fluid")
+            .col-md-7 
+                h1 #{pagina}
+                blockquote Mauris iaculis lacinia libero, bibendum malesuada massa dapibus sed. Ut quis nisl lobortis tortor vehicula accumsan. Donec dignissim quam ac pulvinar ultrices. Duis pretium ornare eleifend. Phasellus malesuada, magna non sagittis porttitor, quam sem laoreet urna, ut blandit sem dolor ornare neque. Curabitur odio neque, accumsan at dictum et, dignissim lacinia nisl.
+
+                blockquote Duis id accumsan est. Duis massa dui, mollis a purus et, egestas gravida ante. Pellentesque sed purus a quam egestas dapibus. Quisque aliquam lectus orci, nec rutrum diam laoreet non.
+
+                blockquote Nam tempor ipsum tincidunt, consectetur augue vitae, mollis nibh. Duis id varius nisi, sit amet iaculis tellus. Nam viverra, orci auctor vulputate molestie, libero nulla iaculis elit, a suscipit mauris purus a nisl. Maecenas vel ullamcorper massa. Duis elementum lobortis lectus quis efficitur. Nunc sollicitudin lorem in pharetra mollis. Donec sit amet auctor sem.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2 Seguridad 
+                    p Nam tempor ipsum tincidunt, consectetur augue vitae, mollis nibh. Duis id varius nisi, sit amet iaculis tellus.
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2 Mejores destinos 
+                    p Nam tempor ipsum tincidunt, consectetur augue vitae, mollis nibh. Duis id varius nisi, sit amet iaculis tellus.
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2 Mejores precios 
+                    p Nam tempor ipsum tincidunt, consectetur augue vitae, mollis nibh. Duis id varius nisi, sit amet iaculis tellus.
